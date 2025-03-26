@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 
+    /* Palette from LoSpec and PolyRoly */
+    /* https://lospec.com/palette-list/frappe-four */
+    --palette-lgt-brwn: #ffedbd;
+    --palette-sft-brwn: #be9569;
+    --palette-mid-brwn: #7d3d15;
+    --palette-drk-brwn: #3d1606;
+
     --nav-and-content-width: 600px;
 }
 
@@ -26,15 +33,15 @@ nav {
 }
 
 nav button {
-    background-color: #3d1606;
-    color: #ffedbd;
+    background-color: var(--palette-drk-brwn);
+    color: var(--palette-lgt-brwn);
     padding: 8px 16px;
     border-style: none;;
     border-radius: 20%;
 }
 
 #content {
-    background-color: blanchedalmond;
+    background-color: var(--palette-lgt-brwn);
     width: var(--nav-and-content-width);
     margin: 0 auto;
 }
