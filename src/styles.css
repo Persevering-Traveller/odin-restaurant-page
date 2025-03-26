@@ -25,6 +25,14 @@ nav {
     margin: 0 auto;
 }
 
+nav button {
+    background-color: #3d1606;
+    color: #ffedbd;
+    padding: 8px 16px;
+    border-style: none;;
+    border-radius: 20%;
+}
+
 #content {
     background-color: blanchedalmond;
     width: var(--nav-and-content-width);
