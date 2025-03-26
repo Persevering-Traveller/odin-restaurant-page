@@ -42,8 +42,13 @@ nav button {
 
 #content {
     background-color: var(--palette-lgt-brwn);
+    color: var(--palette-drk-brwn);
     width: var(--nav-and-content-width);
     margin: 0 auto;
+}
+
+.quote {
+    color: var(--palette-mid-brwn);
 }
 
 .bus-name {
