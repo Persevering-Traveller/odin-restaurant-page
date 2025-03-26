@@ -12,6 +12,11 @@ body {
     background-position-y: -114px;
 }
 
+header {
+    padding-top: 64px;
+    padding-bottom: 32px;
+}
+
 nav {
     display: flex;
     justify-content: center;
