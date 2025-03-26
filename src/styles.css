@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+
+    --nav-and-content-width: 600px;
 }
 
 body {
@@ -14,13 +16,13 @@ nav {
     display: flex;
     justify-content: center;
     gap: 64px;
-    width: 600px;
+    width: var(--nav-and-content-width);
     margin: 0 auto;
 }
 
 #content {
     background-color: blanchedalmond;
-    width: 600px;
+    width: var(--nav-and-content-width);
     margin: 0 auto;
 }
 
