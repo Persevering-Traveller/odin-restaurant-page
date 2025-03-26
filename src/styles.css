@@ -45,7 +45,10 @@ nav button {
     color: var(--palette-drk-brwn);
     text-align: center;
     width: var(--nav-and-content-width);
+    border: 8px dotted var(--palette-drk-brwn);
+    border-radius: 64px;
     margin: 0 auto;
+    padding: 32px 16px;
 }
 
 .quote {
