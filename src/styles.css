@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("./doug-greenman-aPgKh5M8CIs-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: -114px;
+}
+
+#content {
+    background-color: blanchedalmond;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.bus-name {
+    font-size: 2rem;
+}
+
+.quote {
+    font-size: 1.45em;
+}
+
+.contact-info span {
+    display: block;
+    font-size: 1.2em;
+}
+
+.icon .coffee{
+    width: 32px;
+}
