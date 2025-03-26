@@ -43,6 +43,7 @@ nav button {
 #content {
     background-color: var(--palette-lgt-brwn);
     color: var(--palette-drk-brwn);
+    text-align: center;
     width: var(--nav-and-content-width);
     margin: 0 auto;
 }
