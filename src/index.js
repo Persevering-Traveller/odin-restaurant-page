@@ -1,3 +1,4 @@
 import "./styles.css";
+import { homeTabBuilder } from "./home";
 
-console.log("[LOG]: Testing webpack server working");
+homeTabBuilder();
