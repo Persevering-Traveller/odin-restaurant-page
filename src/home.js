@@ -11,7 +11,7 @@ const nameBuilder = () => {
 
 const quoteBuilder = () => {
     const quote = document.createElement("div");
-    quote.textContent = "The smoothest brew your tastebuds can enjoy.";
+    quote.textContent = '\"The smoothest brew your tastebuds can enjoy.\"';
     quote.setAttribute("class", "quote");
     contentElement.appendChild(quote);
 }
