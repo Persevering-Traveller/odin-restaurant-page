@@ -50,7 +50,7 @@ nav button {
     border: 8px dotted var(--palette-drk-brwn);
     border-radius: 64px;
     margin: 0 auto;
-    padding: 32px 16px;
+    padding: 32px 16px 16px 16px;
 }
 
 #content div {
@@ -74,6 +74,11 @@ nav button {
 .contact-info span {
     display: block;
     font-size: 1.2em;
+}
+
+#content .icon {
+    margin-top: 32px;
+    margin-bottom: 0;
 }
 
 .icon .coffee{
