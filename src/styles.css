@@ -17,6 +17,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: -114px;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 header {
@@ -59,16 +61,13 @@ nav button {
     margin: 8px;
 }
 
-.quote {
-    color: var(--palette-mid-brwn);
-}
-
 .bus-name {
     font-size: 2rem;
 }
 
 .quote {
     font-size: 1.45em;
+    color: var(--palette-mid-brwn);
 }
 
 .contact-info span {
