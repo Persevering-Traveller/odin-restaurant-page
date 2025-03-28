@@ -15,8 +15,8 @@
 body {
     background: url("./doug-greenman-aPgKh5M8CIs-unsplash.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: -114px;
+    background-size: 2016px; /* Half of the picture's width */
+    background-position: center -114px;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
