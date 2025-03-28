@@ -100,3 +100,23 @@ nav button {
     justify-content: center;
     align-items: center;
 }
+
+.menu-coffee-section, 
+.menu-coffee-price {
+    display: flex;
+    align-items: end;
+}
+
+.menu-coffee-section {
+    justify-content: left;
+    text-align: left;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.menu-coffee-price {
+    justify-content: right;
+    text-align: right;
+    font-size: 2rem;
+    font-weight: bold;
+}
