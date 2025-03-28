@@ -54,7 +54,7 @@ nav button {
     padding: 32px 16px 16px 16px;
 }
 
-#content div {
+#content > div {
     margin: 16px;
 }
 
@@ -90,6 +90,10 @@ nav button {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 2fr 2fr repeat(7, 1fr) 2fr repeat(6, 1fr);
+}
+
+.menu > div {
+    margin: 6px;
 }
 
 .menu-name {
