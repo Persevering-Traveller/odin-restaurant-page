@@ -124,3 +124,17 @@ nav button {
     font-size: 2rem;
     font-weight: bold;
 }
+
+.menu-item,
+.menu-price {
+    font-size: 1.22rem;
+}
+
+.menu-item {
+    text-align: left;
+    padding-left: 18px;
+}
+
+.menu-price {
+    text-align: right;
+}
