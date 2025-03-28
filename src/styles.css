@@ -115,6 +115,7 @@ nav button {
     text-align: left;
     font-size: 2rem;
     font-weight: bold;
+    border-bottom: 2px solid #3d1606;
 }
 
 .menu-coffee-price,
