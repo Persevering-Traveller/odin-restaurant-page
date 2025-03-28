@@ -84,3 +84,9 @@ nav button {
 .icon .coffee{
     width: 32px;
 }
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 3fr 2fr repeat(7, 1fr) 2fr repeat(6, 1fr);
+}
