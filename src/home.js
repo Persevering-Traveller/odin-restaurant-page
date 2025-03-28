@@ -48,7 +48,7 @@ const iconBuilder = () => {
 const coffeeSVGBuilder = () => {
     const coffeeSVG = document.createElement("img");
     coffeeSVG.setAttribute("class", "coffee");
-    coffeeSVG.setAttribute("src", coffeeSVGIcon)
+    coffeeSVG.setAttribute("src", coffeeSVGIcon);
     coffeeSVG.setAttribute("alt", "Picture of a coffee cup");
     return coffeeSVG;
 }
