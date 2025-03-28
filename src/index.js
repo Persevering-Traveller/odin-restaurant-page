@@ -1,5 +1,5 @@
 import "./styles.css";
-import { homeTabBuilder } from "./home";
+import { homeBuilder } from "./home";
 import { menuBuilder } from "./menu";
 
 const contentElement = document.querySelector("#content");
@@ -9,7 +9,7 @@ const menuTab = document.querySelector("#menu");
 
 homeTab.addEventListener("click", () => {
     clearContent();
-    homeTabBuilder();
+    homeBuilder();
 });
 
 menuTab.addEventListener("click", () => {
@@ -23,4 +23,4 @@ function clearContent() {
     }
 }
 
-homeTabBuilder();
+homeBuilder();

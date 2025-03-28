@@ -53,11 +53,11 @@ const coffeeSVGBuilder = () => {
     return coffeeSVG;
 }
 
-const homeTabBuilder = () => {
+const homeBuilder = () => {
     nameBuilder();
     quoteBuilder();
     contactInfoBuilder();
     iconBuilder();
 }
 
-export { homeTabBuilder };
+export { homeBuilder };
