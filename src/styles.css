@@ -157,3 +157,8 @@ nav button {
     text-align: left;
     padding: 8px;
 }
+
+.emph {
+    font-style: italic;
+    font-weight: bold;
+}
