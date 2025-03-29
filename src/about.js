@@ -18,7 +18,7 @@ const descriptionsBuilder = (about) => {
     descriptions.forEach(desc => {
         const description = document.createElement("div");
         description.setAttribute("class", "description");
-        description.textContent = desc;
+        description.innerHTML = desc;
         about.appendChild(description);
     });
 }
