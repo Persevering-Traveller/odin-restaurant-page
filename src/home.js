@@ -38,6 +38,13 @@ const addressBuilder = () => {
     return address;
 }
 
+const hoursBuilder = () => {
+    const hours = document.createElement("div");
+    hours.textContent = "Mon-Fri 5AM-2PM, Sat&Sun 5AM-5PM";
+    hours.setAttribute("class", "hours");
+    return hours;
+}
+
 const iconBuilder = () => {
     const icon = document.createElement("div");
     icon.setAttribute("class", "icon");
@@ -59,6 +66,7 @@ const homeBuilder = () => {
     home.appendChild(nameBuilder());
     home.appendChild(quoteBuilder());
     home.appendChild(contactInfoBuilder());
+    home.appendChild(hoursBuilder());
     home.appendChild(iconBuilder());
     contentElement.appendChild(home);
 }
