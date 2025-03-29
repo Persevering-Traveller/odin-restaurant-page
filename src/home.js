@@ -6,14 +6,14 @@ const nameBuilder = () => {
     const businessName = document.createElement("div");
     businessName.textContent = "JazzHouse Coffee Co. Llc.";
     businessName.setAttribute("class", "bus-name");
-    contentElement.appendChild(businessName);
+    return businessName;
 }
 
 const quoteBuilder = () => {
     const quote = document.createElement("div");
     quote.textContent = '\"The smoothest brew your tastebuds can enjoy.\"';
     quote.setAttribute("class", "quote");
-    contentElement.appendChild(quote);
+    return quote;
 }
 
 const contactInfoBuilder = () => {
@@ -21,7 +21,7 @@ const contactInfoBuilder = () => {
     contactInfo.setAttribute("class", "contact-info");
     contactInfo.appendChild(numberBuilder());
     contactInfo.appendChild(addressBuilder());
-    contentElement.appendChild(contactInfo);
+    return contactInfo;
 }
 
 const numberBuilder = () => {
@@ -42,7 +42,7 @@ const iconBuilder = () => {
     const icon = document.createElement("div");
     icon.setAttribute("class", "icon");
     icon.appendChild(coffeeSVGBuilder());
-    contentElement.appendChild(icon);
+    return icon;
 }
 
 const coffeeSVGBuilder = () => {
@@ -54,10 +54,13 @@ const coffeeSVGBuilder = () => {
 }
 
 const homeBuilder = () => {
-    nameBuilder();
-    quoteBuilder();
-    contactInfoBuilder();
-    iconBuilder();
+    const home = document.createElement("div");
+    home.setAttribute("class", "home");
+    home.appendChild(nameBuilder());
+    home.appendChild(quoteBuilder());
+    home.appendChild(contactInfoBuilder());
+    home.appendChild(iconBuilder());
+    contentElement.appendChild(home);
 }
 
 export { homeBuilder };
