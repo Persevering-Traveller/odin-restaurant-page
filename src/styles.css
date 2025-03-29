@@ -58,7 +58,7 @@ nav button {
     margin: 16px;
 }
 
-#content span {
+#content > span {
     margin: 8px;
 }
 
