@@ -5,7 +5,7 @@ const descriptions = [
     'It is owned by <span class="emph">\'Mama Mocha\'</span> herself and she has been fulfilling coffee dreams for over <span class="emph">20 years</span>. Now Mama and her crew have decided to have their own place to please the masses with her barista skills and Mama\'s favorite genre: <span class="emph">Smooth Jazz</span>.',
     '<span class="emph">Every weekend</span> from <span class="emph">3PM to Close</span>, the JazzHouse will have <span class="emph">live local Jazz Bands</span> playing in shop! But don\'t worry if you can\'t make it. Mama\'s <span class="emph">always</span> playing Jazz, and also <span class="emph">sells</span> the bands CDs and merch in store!',
     'So come on in, take a <span class="emph">sip</span> and a <span class="emph">deep breath</span>, and <span class="emph">enjoy</span> Mama\'s JazzHouse.'
-]
+];
 
 const titleBuilder = () => {
     const title = document.createElement("div");
@@ -15,12 +15,12 @@ const titleBuilder = () => {
 }
 
 const descriptionsBuilder = (about) => {
-    for(const desc in descriptions) {
+    descriptions.forEach(desc => {
         const description = document.createElement("div");
         description.setAttribute("class", "description");
         description.textContent = desc;
         about.appendChild(description);
-    }
+    });
 }
 
 const aboutBuilder = () => {
