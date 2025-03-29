@@ -47,6 +47,12 @@ nav button:active {
     background-color: var(--palette-mid-brwn);
 }
 
+nav button.selected {
+    background-color: var(--palette-sft-brwn);
+    color: var(--palette-drk-brwn);
+    font-weight: 600;
+}
+
 #content {
     background-color: var(--palette-lgt-brwn);
     color: var(--palette-drk-brwn);
