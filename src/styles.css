@@ -150,3 +150,9 @@ nav button {
     font-weight: bold;
     border-bottom: 2px solid var(--palette-drk-brwn);
 }
+
+.description {
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 8px;
+}
