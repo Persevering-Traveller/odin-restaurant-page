@@ -120,7 +120,7 @@ nav button {
     text-align: left;
     font-size: 2rem;
     font-weight: bold;
-    border-bottom: 2px solid #3d1606;
+    border-bottom: 2px solid var(--palette-drk-brwn);
 }
 
 .menu-coffee-price,
