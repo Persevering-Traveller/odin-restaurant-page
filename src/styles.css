@@ -149,6 +149,7 @@ nav button {
     font-size: 3rem;
     font-weight: bold;
     border-bottom: 2px solid var(--palette-drk-brwn);
+    margin-bottom: 8px;
 }
 
 .description {
