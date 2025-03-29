@@ -144,3 +144,9 @@ nav button {
 .menu-price {
     text-align: right;
 }
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    border-bottom: 2px solid var(--palette-drk-brwn);
+}
