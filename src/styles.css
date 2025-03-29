@@ -65,11 +65,11 @@ nav button.selected {
     padding: 32px 16px 16px 16px;
 }
 
-#content > div {
+.home > div {
     margin: 16px;
 }
 
-#content > span {
+.home > span {
     margin: 8px;
 }
 
